@@ -3,6 +3,8 @@
 
 using namespace std;
 
+//Problem: https://leetcode.com/problems/first-unique-character-in-a-string/
+
 int firstUniqChar(string s) {
     unordered_map<char, int> um;
 
